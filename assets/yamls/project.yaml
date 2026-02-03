@@ -1,13 +1,12 @@
-- fullName: NCHU AI Learning Advisor
+- fullName: NCHU AI 興學伴
   shortName: ALA
-  image: /assets/images/ALA.png
+  image: /assets/images/ai-logo-text.png
   context: 基於 Claude API + MCP 協議，整合中興大學課程、圖書館和跨領域課程工具的查詢工具。
   tags: [Claude, MCP]
-  authors: [{name: "Hsing-Ping Liang,"}, {name: 范耀中, link:\#}]
+  authors: [{name: 范耀中, link:\#}]
   links: [
     {name: Demo, style: btn-primary, href: https://eduxplore.nlpnchu.org/}
   ]
-
 - fullName: 神農TAIDE
   shortName: demeteragent
   image: /assets/images/lab-logo.png
@@ -17,5 +16,22 @@
   links: [
     {name: Demo, style: btn-primary, href: https://demeteragent.nlpnchu.org/}
   ]
-
+- fullName: 事實查核系統
+  shortName: fact-checkingagent
+  image: /assets/images/lab-logo.png
+  context: 基於 Claude API + MCP 協作，整合多來源檢索、圖像驗證與證據推理的智慧查核工具。
+  tags: [Claude, MCP, Multimodal-Analysis]
+  authors: [{name: "范耀中,", link:\#}, {name: "李奕錡,", link:\#}, {name: 顏祥益, link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://factchecking.nlpnchu.org/}
+  ]
+- fullName: 彰化基督教醫院諮詢系統
+  shortName: changhua-hospital-agent
+  image: /assets/images/lab-logo.png
+  context: 基於 Claude API 與 MCP 協議整合醫院入館規範、住院安全指引與緊急應變流程之智慧諮詢系統，提供病患與家屬即時查詢與精準問答服務。
+  tags: [Claude, MCP]
+  authors: [{name: "范耀中,", link:\#}, {name: "陳睿彪,", link:\#}, {name: 侯如蓁, link:\#}, {name: 施秉榕, link:\#}]
+  links: [
+    {name: Demo, style: btn-primary, href: https://hchmedical.nlpnchu.org/}
+  ]
   
